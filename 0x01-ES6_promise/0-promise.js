@@ -5,12 +5,12 @@ export default function getResponseFromAPI() {
   return fetch(url)
     .then(response => {
       if (!response.ok) {
-	throw new Error('Not exact reponse returned');
+        throw new Error('Not exact reponse returned');
       }
       return response.json();
     })
     .catch(error => {
-      console.error('There was a problem with the fetch operation:' , error);
+      console.error('There was a problem with the fetch operation:', error);
       throw error;
     });
 }
