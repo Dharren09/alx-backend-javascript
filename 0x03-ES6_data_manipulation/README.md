@@ -1,0 +1,1 @@
+Weak link data structure
