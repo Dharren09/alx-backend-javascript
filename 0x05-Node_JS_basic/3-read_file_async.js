@@ -8,7 +8,6 @@
  * CSV file can contain empty lines
  */
 
-
 const fs = require('fs');
 
 const countStudents = (dataPath) => new Promise((resolve, reject) => {

@@ -1,5 +1,3 @@
-const fs = require('fs');
-
 /**
  * using db, a fn accepts a path in argument
  * script should attempt to read db fin sync
@@ -9,6 +7,7 @@ const fs = require('fs');
  * CSV file can contain empty lines at the end
  */
 
+const fs = require('fs');
 
 const countStudents = (dataPath) => {
   if (!fs.existsSync(dataPath)) {

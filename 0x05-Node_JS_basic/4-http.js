@@ -3,7 +3,6 @@
  * its assigned to the variable which is exported
  */
 
-
 const http = require('http');
 
 const PORT = 1245;

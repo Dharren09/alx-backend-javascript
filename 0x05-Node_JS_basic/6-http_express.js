@@ -4,7 +4,6 @@
  * shd be assigned to the variable app must be export
  */
 
-
 const express = require('express');
 
 const app = express();
